@@ -8,25 +8,21 @@
   </head>
   <body>
 
-    <table>
-      <tr>
-        <td class="left">
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-          </nav>
-        </td>
-      </tr>
+    <div class="sidebar">
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
 
-      <tr>
-        <td>
+    <div class="mainbox">
 
-          <h2>Contact Me!</h2>
+        <h1 class="mainheading">Contact Me</h1>
 
-          <p>Fill out the form below to leave me a message</p>
-
-          <form name="comment" action="https://httpbin.org/post" method="post">
+        <form name="comment" action="https://httpbin.org/post" method="post">
             <fieldset>
               <div>
                 <label>Name:</label>
@@ -44,11 +40,11 @@
 
               <button type="submit">Send your message</button>
 
-            </form>
-        </td>
-      </tr>
+          </form>
 
-    </table>
+      </div>
 
   </body>
+
+  <footer>Copyright Jake Zappin 2016</footer>
 </html>
