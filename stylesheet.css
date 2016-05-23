@@ -1,12 +1,8 @@
-img {
-	width: 250px;
-	height: 200px;
-}
-
 body {
 	height: 100%;
 	background: #DED6BE;
 }
+
 
 footer {
 	font-size: .5em;
@@ -25,8 +21,9 @@ form {
 	display: block;
 }
 
-#mypicture {
-	margin-left: 30%;
+img {
+	width: 250px;
+	height: 200px;
 }
 
 .thumbnail {
@@ -39,30 +36,23 @@ form {
     border-radius: 4px;
 }
 
+#mypicture {
+	margin-left: 30%;
+}
+
 @media screen and (min-width: 501px) {
-  	nav {
-		list-style-type: disc;
-	}
 
 	h3 {
 		padding-left: 3%;
 	}
 
+	nav {
+		list-style-type: disc;
+	}
+
 	p {
 		padding-left: 3%;
 		width: 80%;
-	}
-
-  	.sidebar {
-		background-color: #B7AA82;
-	  	padding-left: 10px;
-	  	width: 125px;
-	  	height: 100%;
-	    display: inline-block;
-	    vertical-align: top;
-	    border-right: 2px black solid;
-	    position: fixed;
-	    margin-top: -20px;
 	}
 
 	 .mainbox {
@@ -80,12 +70,24 @@ form {
 		margin-left: 30%;
 	}
 
+	.sidebar {
+		background-color: #B7AA82;
+	  	padding-left: 10px;
+	  	width: 125px;
+	  	height: 100%;
+	    display: inline-block;
+	    vertical-align: top;
+	    border-right: 2px black solid;
+	    position: fixed;
+	    margin-top: -20px;
+	}
+
 }
 
 @media screen and (max-width: 500px) {
-	ul {
-		list-style-type: none;
-		margin-left: 17%;
+
+	h3 {
+		text-align: center;
 	}
 
 	li {
@@ -93,26 +95,13 @@ form {
 		padding-right: 20px;
 	}
 
-	h3 {
-		text-align: center;
-	}
-
 	p {
 		text-align: center;
 	}
 
-	.sidebar {
-		background-color: #B7AA82;
-	  	padding-left: 10px;
-	  	width: 100%;
-	  	height: 7%;
-	    display: block;
-	    vertical-align: top;
-	    border-right: 2px black solid;
-	    position: fixed;
-	    margin-left: -15px;
-	    margin-top: -10px;
-	    border-bottom: 2px black solid;
+	ul {
+		list-style-type: none;
+		margin-left: 17%;
 	}
 
 	 .mainbox {
@@ -130,6 +119,20 @@ form {
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
+	}
+
+	.sidebar {
+		background-color: #B7AA82;
+	  	padding-left: 10px;
+	  	width: 100%;
+	  	height: 7%;
+	    display: block;
+	    vertical-align: top;
+	    border-right: 2px black solid;
+	    position: fixed;
+	    margin-left: -15px;
+	    margin-top: -10px;
+	    border-bottom: 2px black solid;
 	}
 
 }
