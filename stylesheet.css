@@ -1,8 +1,9 @@
 body {
 	height: 100%;
-	background: #DED6BE;
+	width: 100%;
+	background-image: url("paper.gif");
+	background-size: cover;
 }
-
 
 footer {
 	font-size: .5em;
@@ -16,8 +17,7 @@ footer {
 
 form {
 	width: 250px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 25px;
 	display: block;
 }
 
@@ -55,8 +55,14 @@ img {
 		width: 80%;
 	}
 
+	.contactheading {
+		margin-left: 25px;
+	}
+
 	 .mainbox {
+	 	background-image: url("paper.gif");
 		margin-left: 130px;
+		background-size: cover;
 		background-color: #DED6BE;
 	    width: 85%;
 	    height: 100%;
@@ -64,10 +70,6 @@ img {
 
 	.mainheading {
 		padding-left: 34%;
-	}
-
-	#mypicture {
-		margin-left: 30%;
 	}
 
 	.sidebar {
@@ -80,6 +82,10 @@ img {
 	    border-right: 2px black solid;
 	    position: fixed;
 	    margin-top: -20px;
+	}
+
+	#mypicture {
+		margin-left: 30%;
 	}
 
 }
@@ -105,7 +111,6 @@ img {
 	}
 
 	 .mainbox {
-		background-color: #DED6BE;
 	    width: 100%;
 	   	padding-top: 10%;
 	    display: block;
